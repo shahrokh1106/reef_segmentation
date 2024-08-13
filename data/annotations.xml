@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>394</id>
+      <size>51</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-07-30 07:44:43.642589+00:00</created>
+      <updated>2024-08-07 05:06:28.536090+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>50</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>394</id>
+          <start>0</start>
+          <stop>50</stop>
+          <url>http://74.208.7.27:8888/api/jobs/394</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>Davido</username>
+        <email>david.niwa@gmail.com</email>
+      </owner>
+      <assignee>
+        <username>Tony</username>
+        <email>jiaxuan.wang.1027@gmail.com</email>
+      </assignee>
+      <labels>
+        <label>
+          <name>Low CS</name>
+          <color>#4f6174</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Species</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>Amphiroa anceps</default_value>
+              <values>Amphiroa anceps
+Anthothoe albocinta
+Jasus edwardsii</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>High CS</name>
+          <color>#e94370</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Species</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>Carpophylum mascalaparpum</default_value>
+              <values>Carpophylum mascalaparpum
+Ecklonia
+Ecklonia radiata
+Haliotis iris</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Medium CS</name>
+          <color>#3a4416</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Species</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>Perna canuliculus</default_value>
+              <values>Perna canuliculus
+Vidalia colensoi
+Zonaria aureomarginata</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Rock</name>
+          <color>#a0e0e0</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Unknown</name>
+          <color>#292605</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-08-07 23:12:05.565531+00:00</dumped>
+  </meta>
+  <image id="0" name="Deepwatercove_008.png" width="1920" height="1080">
+    <box label="High CS" source="manual" occluded="0" xtl="1294.26" ytl="143.47" xbr="1388.99" ybr="292.35" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1237.41" ytl="0.02" xbr="1313.20" ybr="152.95" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1322.68" ytl="661.82" xbr="1537.87" ybr="809.34" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1116.96" ytl="560.32" xbr="1330.80" ybr="734.90" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="938.32" ytl="470.99" xbr="1129.14" ybr="606.33" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1378.17" ytl="480.47" xbr="1491.85" ybr="649.64" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1341.62" ytl="284.23" xbr="1394.41" ybr="481.82" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1584.54" ytl="487.22" xbr="1631.91" ybr="607.67" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1576.42" ytl="347.82" xbr="1612.96" ybr="493.99" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1564.24" ytl="14.89" xbr="1599.43" ybr="351.88" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1782.80" ytl="119.70" xbr="1920.00" ybr="495.35" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1730.71" ytl="0.00" xbr="1794.32" ybr="181.35" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1506.74" ytl="93.40" xbr="1563.58" ybr="374.90" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1646.14" ytl="236.86" xbr="1734.11" ybr="311.29" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1627.19" ytl="2.72" xbr="1671.85" ybr="247.68" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1684.03" ytl="303.17" xbr="1811.25" ybr="372.20" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1842.38" ytl="485.88" xbr="1920.00" ybr="617.16" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1651.55" ytl="491.29" xbr="1731.40" ybr="558.96" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1728.69" ytl="484.53" xbr="1816.66" ybr="633.40" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1642.08" ytl="315.35" xbr="1685.38" ybr="506.18" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1540.57" ytl="626.63" xbr="1876.21" ybr="795.81" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1665.08" ytl="0.02" xbr="1731.40" ybr="239.56" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1616.36" ytl="92.05" xbr="1644.78" ybr="339.71" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1529.75" ytl="466.93" xbr="1597.41" ybr="545.43" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1508.09" ytl="372.20" xbr="1535.16" ybr="621.22" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1387.64" ytl="243.62" xbr="1453.96" ybr="401.97" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+  </image>
+  <image id="1" name="Deepwatercove_016.png" width="1920" height="1080">
+    <box label="High CS" source="manual" occluded="0" xtl="924.78" ytl="221.97" xbr="1079.07" ybr="284.23" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="857.11" ytl="277.46" xbr="1024.93" ybr="326.18" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="880.12" ytl="324.83" xbr="991.10" ybr="414.15" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="950.50" ytl="483.17" xbr="1378.17" ybr="576.56" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1041.17" ytl="569.79" xbr="1156.21" ybr="661.82" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1148.09" ytl="571.14" xbr="1398.47" ybr="709.20" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1123.73" ytl="668.59" xbr="1207.64" ybr="897.31" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1198.17" ytl="665.88" xbr="1268.54" ybr="801.22" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1345.68" ytl="676.71" xbr="1426.89" ybr="770.09" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1344.33" ytl="410.10" xbr="1502.68" ybr="530.54" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="0.42" ytl="955.50" xbr="162.83" ybr="1071.90" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1103.43" ytl="370.84" xbr="1347.00" ybr="502.12" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1370.71" ytl="522.41" xbr="1501.99" ybr="678.05" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+  </image>
+  <image id="2" name="Deepwatercove_024.png" width="1920" height="1080">
+    <box label="High CS" source="manual" occluded="0" xtl="828.00" ytl="263.91" xbr="1020.18" ybr="365.41" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="754.63" ytl="166.26" xbr="838.44" ybr="423.21" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="607.40" ytl="464.21" xbr="733.26" ybr="573.84" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="24.09" ytl="8.12" xbr="118.83" ybr="595.49" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="105.29" ytl="4.06" xbr="205.44" ybr="599.55" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="202.74" ytl="0.00" xbr="270.41" ybr="346.47" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="204.09" ytl="336.99" xbr="319.13" ybr="558.95" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="386.80" ytl="472.33" xbr="615.52" ybr="668.57" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="320.48" ytl="69.02" xbr="753.80" ybr="477.75" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+  </image>
+  <image id="3" name="Deepwatercove_032.png" width="1920" height="1080">
+    <box label="High CS" source="manual" occluded="0" xtl="71.73" ytl="2.75" xbr="151.42" ybr="251.45" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="341.04" ytl="0.00" xbr="413.86" ybr="522.14" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="253.10" ytl="2.75" xbr="342.41" ybr="464.43" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="203.63" ytl="4.12" xbr="264.09" ybr="423.21" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1.65" ytl="138.78" xbr="183.02" ybr="392.98" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="27.76" ytl="2.75" xbr="86.84" ybr="177.25" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+  </image>
+  <image id="4" name="Deepwatercove_040.png" width="1920" height="1080">
+    <box label="High CS" source="manual" occluded="0" xtl="230.59" ytl="0.00" xbr="540.58" ybr="375.20" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="550.88" ytl="328.47" xbr="789.43" ybr="396.06" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="923.11" ytl="4.20" xbr="992.36" ybr="457.64" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="759.87" ytl="312.54" xbr="872.00" ybr="591.20" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="848.91" ytl="76.75" xbr="941.25" ybr="338.92" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="240.50" ytl="368.60" xbr="380.64" ybr="601.09" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="95.39" ytl="589.55" xbr="341.07" ybr="1080.00" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="364.10" ytl="371.90" xbr="596.64" ybr="876.45" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="202.56" ytl="239.99" xbr="268.52" ybr="312.54" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="538.95" ytl="193.29" xbr="756.03" ybr="333.24" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1080.46" ytl="201.24" xbr="1175.08" ybr="321.31" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1260.96" ytl="140.81" xbr="1289.59" ybr="172.62" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1136.92" ytl="145.58" xbr="1263.35" ybr="307.80" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1184.63" ytl="84.35" xbr="1285.61" ybr="148.76" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1074.89" ytl="90.72" xbr="1137.71" ybr="205.22" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="341.07" ytl="866.56" xbr="510.90" ybr="1029.79" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1088.00" ytl="620.88" xbr="1160.55" ybr="765.98" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1153.95" ytl="409.82" xbr="1257.83" ybr="741.24" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1045.13" ytl="803.90" xbr="1500.21" ybr="947.35" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="979.17" ytl="947.35" xbr="1219.91" ybr="1079.26" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="703.81" ytl="840.17" xbr="1053.37" ybr="1080.00" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="507.60" ytl="830.28" xbr="698.87" ybr="1080.00" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="594.99" ytl="363.65" xbr="913.22" ybr="851.72" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="865.40" ytl="365.30" xbr="937.95" ybr="568.11" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="990.71" ytl="109.73" xbr="1097.89" ybr="825.33" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+  </image>
+  <image id="5" name="Deepwatercove_048.png" width="1920" height="1080">
+    <box label="High CS" source="manual" occluded="0" xtl="1628.63" ytl="596.95" xbr="1763.17" ybr="941.41" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1509.35" ytl="542.56" xbr="1628.63" ybr="944.28" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1614.31" ytl="334.54" xbr="1698.28" ybr="560.69" z_order="0">
+      <attribute name="Species">Carpophylum mascalaparpum</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1552.29" ytl="262.02" xbr="1616.22" ybr="415.65" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="661.07" ytl="216.22" xbr="929.20" ybr="368.89" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="1550.38" ytl="420.42" xbr="1614.31" ybr="547.33" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+    <box label="High CS" source="manual" occluded="0" xtl="930.15" ytl="0.00" xbr="1554.20" ybr="555.92" z_order="0">
+      <attribute name="Species">Ecklonia</attribute>
+    </box>
+  </image>
+  <image id="6" name="Deepwatercove_056.png" width="1920" height="1080">
+  </image>
+  <image id="7" name="Deepwatercove_064.png" width="1920" height="1080">
+  </image>
+  <image id="8" name="Deepwatercove_072.png" width="1920" height="1080">
+  </image>
+  <image id="9" name="Deepwatercove_080.png" width="1920" height="1080">
+  </image>
+  <image id="10" name="Deepwatercove_088.png" width="1920" height="1080">
+  </image>
+  <image id="11" name="Deepwatercove_096.png" width="1920" height="1080">
+  </image>
+  <image id="12" name="Deepwatercove_104.png" width="1920" height="1080">
+  </image>
+  <image id="13" name="Deepwatercove_112.png" width="1920" height="1080">
+  </image>
+  <image id="14" name="Deepwatercove_120.png" width="1920" height="1080">
+  </image>
+  <image id="15" name="Deepwatercove_128.png" width="1920" height="1080">
+  </image>
+  <image id="16" name="Deepwatercove_136.png" width="1920" height="1080">
+  </image>
+  <image id="17" name="Deepwatercove_144.png" width="1920" height="1080">
+  </image>
+  <image id="18" name="Deepwatercove_152.png" width="1920" height="1080">
+  </image>
+  <image id="19" name="Deepwatercove_160.png" width="1920" height="1080">
+  </image>
+  <image id="20" name="Deepwatercove_168.png" width="1920" height="1080">
+  </image>
+  <image id="21" name="Deepwatercove_176.png" width="1920" height="1080">
+  </image>
+  <image id="22" name="Deepwatercove_184.png" width="1920" height="1080">
+  </image>
+  <image id="23" name="Deepwatercove_192.png" width="1920" height="1080">
+  </image>
+  <image id="24" name="Deepwatercove_200.png" width="1920" height="1080">
+  </image>
+  <image id="25" name="Deepwatercove_208.png" width="1920" height="1080">
+  </image>
+  <image id="26" name="Deepwatercove_216.png" width="1920" height="1080">
+  </image>
+  <image id="27" name="Deepwatercove_224.png" width="1920" height="1080">
+  </image>
+  <image id="28" name="Deepwatercove_232.png" width="1920" height="1080">
+  </image>
+  <image id="29" name="Deepwatercove_240.png" width="1920" height="1080">
+  </image>
+  <image id="30" name="Deepwatercove_248.png" width="1920" height="1080">
+  </image>
+  <image id="31" name="Deepwatercove_256.png" width="1920" height="1080">
+  </image>
+  <image id="32" name="Deepwatercove_264.png" width="1920" height="1080">
+  </image>
+  <image id="33" name="Deepwatercove_272.png" width="1920" height="1080">
+  </image>
+  <image id="34" name="Deepwatercove_280.png" width="1920" height="1080">
+  </image>
+  <image id="35" name="Deepwatercove_288.png" width="1920" height="1080">
+  </image>
+  <image id="36" name="Deepwatercove_296.png" width="1920" height="1080">
+  </image>
+  <image id="37" name="Deepwatercove_304.png" width="1920" height="1080">
+  </image>
+  <image id="38" name="Deepwatercove_312.png" width="1920" height="1080">
+  </image>
+  <image id="39" name="Deepwatercove_320.png" width="1920" height="1080">
+  </image>
+  <image id="40" name="Deepwatercove_328.png" width="1920" height="1080">
+  </image>
+  <image id="41" name="Deepwatercove_336.png" width="1920" height="1080">
+  </image>
+  <image id="42" name="Deepwatercove_344.png" width="1920" height="1080">
+  </image>
+  <image id="43" name="Deepwatercove_352.png" width="1920" height="1080">
+  </image>
+  <image id="44" name="Deepwatercove_360.png" width="1920" height="1080">
+  </image>
+  <image id="45" name="Deepwatercove_368.png" width="1920" height="1080">
+  </image>
+  <image id="46" name="Deepwatercove_376.png" width="1920" height="1080">
+  </image>
+  <image id="47" name="Deepwatercove_384.png" width="1920" height="1080">
+  </image>
+  <image id="48" name="Deepwatercove_392.png" width="1920" height="1080">
+  </image>
+  <image id="49" name="Deepwatercove_400.png" width="1920" height="1080">
+  </image>
+  <image id="50" name="Deepwatercove_408.png" width="1920" height="1080">
+  </image>
+</annotations>
