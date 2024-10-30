@@ -192,6 +192,7 @@ def main():
     
     
     skip_images = 7
+    current_task_id = 2
     for i in range(len(dataset_dict)):
         task_id = dataset_dict[i]['task_id']
         image_name = dataset_dict[i]['image_name']
@@ -199,10 +200,13 @@ def main():
         if i <= skip_images:
             print(f"skipping | image id: {i}, task id: {task_id}, image name: {image_name}")
             continue
+        if task_id != current_task_id:
+            continue
         print(f"image id: {i}, task id: {task_id}, image name: {image_name}")
         
         for class_name in unique_class_list:
             current_class_label = class_name
+            print(f"Please annotate {current_class_label}...")
             image = cv2.imread(f'./images/task_{task_id}/data/{image_name}')
             image = image.astype(np.uint8)
             
@@ -214,7 +218,7 @@ def main():
             cv2.resizeWindow(f"Marine Science Image - {class_name}", 1280, 720)
             cv2.imshow(f'Marine Science Image - {class_name}', image)
             
-
+            
             # keyboard events
             while True:
                 key = cv2.waitKey(1) & 0xFF  # Wait for a key press
@@ -225,7 +229,7 @@ def main():
                     edit_mode_triggered = False
                     print('Edit Mode Off!')
                     print("ESC pressed. Exiting...")
-                    break
+                    sys.exit(0)
                 elif key == ord('s'):  # 'r' key to display "Red"
                     print("Saving mask image...")
                     saved_mask = final_mask.copy()
@@ -249,6 +253,14 @@ def main():
                     final_mask = None
                     cv2.imshow(f'Marine Science Image - {class_name}', image)
                     print("HQ-SAM Reset!")
+                elif key == 13:  # ENTER key
+                    predictor.reset_image()
+                    input_points = []
+                    input_labels = []
+                    edit_mode_triggered = False
+                    print('Edit Mode Off!')
+                    break
+                
                 
                 if key == ord("1"):
                     radius = 10
