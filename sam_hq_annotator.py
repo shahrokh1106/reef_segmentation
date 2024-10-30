@@ -154,6 +154,8 @@ def extract_data_from_cvat_annotations(data_path):
                 try:
                     if image_boxes_data[j]['@label'] != 'Rock' and image_boxes_data[j]['@label'] != 'Unknown':
                         labels.append(image_boxes_data[j]["attribute"]['#text'])
+                    elif image_boxes_data[j]['@label'] == 'Rock':
+                        labels.append("Rock")
                 except:
                     pass
                 
@@ -191,9 +193,9 @@ def main():
     
     
     
-    skip_images = -1
+    skip_images = 44
     global_image_id = 0
-    current_task_id = 1
+    current_task_id = 0
     for i in range(len(dataset_dict)):
         task_id = dataset_dict[i]['task_id']
         image_name = dataset_dict[i]['image_name']
