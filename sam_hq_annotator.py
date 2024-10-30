@@ -191,16 +191,18 @@ def main():
     
     
     
-    skip_images = 7
-    current_task_id = 2
+    skip_images = -1
+    global_image_id = 0
+    current_task_id = 1
     for i in range(len(dataset_dict)):
         task_id = dataset_dict[i]['task_id']
         image_name = dataset_dict[i]['image_name']
         unique_class_list = list(set(dataset_dict[i]['classes']))
-        if i <= skip_images:
-            print(f"skipping | image id: {i}, task id: {task_id}, image name: {image_name}")
-            continue
         if task_id != current_task_id:
+            continue
+        if global_image_id < skip_images:
+            print(f"skipping | image id: {i}, task id: {task_id}, image name: {image_name}")
+            global_image_id += 1
             continue
         print(f"image id: {i}, task id: {task_id}, image name: {image_name}")
         
