@@ -172,10 +172,10 @@ def extract_data_from_cvat_annotations(data_path):
 def main():
     global image, final_mask, edit_mode_triggered, radius, predictor, class_id, current_class_label, input_points, input_labels
     
-    
+    print("Reading annotations from CVAT xml file...")
     data_path = "images"
     dataset_dict = extract_data_from_cvat_annotations(data_path)
-    
+    print("Data extraction complete!")
     
     
     # Initialize HQ-SAM
@@ -193,7 +193,7 @@ def main():
     
     
     
-    skip_images = 44
+    skip_images = -1
     global_image_id = 0
     current_task_id = 0
     for i in range(len(dataset_dict)):
@@ -210,6 +210,8 @@ def main():
         
         for class_name in unique_class_list:
             current_class_label = class_name
+            if current_class_label != 'Rock':
+                continue
             print(f"Please annotate {current_class_label}...")
             image = cv2.imread(f'./images/task_{task_id}/data/{image_name}')
             image = image.astype(np.uint8)
