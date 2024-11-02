@@ -180,7 +180,7 @@ def main():
     
     # Initialize HQ-SAM
     print('Initializing HQ-SAM...')
-    sam_checkpoint = "./sam1_checkpoints/sam_hq_vit_h.pth"
+    sam_checkpoint = "./checkpoints/sam_hq_vit_h.pth"
     model_type = "vit_h"
     device = "cuda"
     
@@ -195,7 +195,7 @@ def main():
     
     skip_images = -1
     global_image_id = 0
-    current_task_id = 0
+    current_task_id = 2
     for i in range(len(dataset_dict)):
         task_id = dataset_dict[i]['task_id']
         image_name = dataset_dict[i]['image_name']
@@ -210,8 +210,11 @@ def main():
         
         for class_name in unique_class_list:
             current_class_label = class_name
-            if current_class_label != 'Rock':
+            
+            # skip classes that are not "Anthothoe albocinta", "Amphiroa anceps" and "Rock"
+            if current_class_label != 'Anthothoe albocinta' and current_class_label != 'Amphiroa anceps' and current_class_label != 'Rock':
                 continue
+            
             print(f"Please annotate {current_class_label}...")
             image = cv2.imread(f'./images/task_{task_id}/data/{image_name}')
             image = image.astype(np.uint8)
