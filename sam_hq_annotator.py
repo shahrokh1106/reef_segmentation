@@ -195,7 +195,7 @@ def main():
     
     skip_images = -1
     global_image_id = 0
-    current_task_id = 0
+    current_task_id = 7
     for i in range(len(dataset_dict)):
         task_id = dataset_dict[i]['task_id']
         image_name = dataset_dict[i]['image_name']
@@ -210,8 +210,8 @@ def main():
         
         for class_name in unique_class_list:
             current_class_label = class_name
-            if current_class_label != 'Rock':
-                continue
+            # if current_class_label != 'Anthothoe albocinta':
+            #     continue
             print(f"Please annotate {current_class_label}...")
             image = cv2.imread(f'./images/task_{task_id}/data/{image_name}')
             image = image.astype(np.uint8)
@@ -245,8 +245,8 @@ def main():
                     temp = np.all(saved_mask == old_value, axis=-1)
                     saved_mask[temp] = new_value
                     
-                    os.makedirs('./segmented_masks/', exist_ok=True)
-                    cv2.imwrite(f'./segmented_masks/{class_name}_{image_name}', saved_mask)
+                    os.makedirs('./segmented_masks_report/', exist_ok=True)
+                    cv2.imwrite(f'./segmented_masks_report/{class_name}_{image_name}', saved_mask)
                     print("Mask image saved!")
                 elif key == ord('e'):
                     edit_mode_triggered = True

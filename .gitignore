@@ -3,3 +3,5 @@ sam1_checkpoints
 segmented_masks
 checkpoints
 xml_extractor_test.ipynb
+*.zip
+segmention_results
