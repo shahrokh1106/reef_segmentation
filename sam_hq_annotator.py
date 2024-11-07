@@ -180,7 +180,7 @@ def main():
     
     # Initialize HQ-SAM
     print('Initializing HQ-SAM...')
-    sam_checkpoint = "./sam1_checkpoints/sam_hq_vit_h.pth"
+    sam_checkpoint = "./checkpoints/sam_hq_vit_h.pth"
     model_type = "vit_h"
     device = "cuda"
     
